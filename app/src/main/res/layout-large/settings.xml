@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <PreferenceCategory
+        android:title="Program Settings" />
+    <EditTextPreference
+        android:title="Default Participant ID"
+        android:defaultValue="Anonymous"
+        android:key="pref_ps_partid"/>
+    <EditTextPreference
+        android:title="Default Stimulus ID"
+        android:defaultValue="Stim01"
+        android:key="pref_ps_stimid"/>
+    <CheckBoxPreference
+        android:title="Perform Calibration Prior To Experiment"
+        android:key="pref_ps_calibration"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:title="Enable Touch Visualisation (Recommended: OFF)"
+        android:key="pref_ps_visualiseoutput"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:title="Show Additional Data Options in Menu"
+        android:key="pref_ps_addDataOptions"
+        android:defaultValue="false" />
+    <PreferenceCategory
+        android:title="Storage Settings" />
+    <EditTextPreference
+        android:title="Data Save Directory Name"
+        android:defaultValue="midasLogger Save"
+        android:key="pref_es_savedir"/>
+    <EditTextPreference
+    android:title="Data Archive Directory Name"
+    android:defaultValue="midasLogger Archive"
+    android:key="pref_es_archivedir"/>
+    <EditTextPreference
+        android:title="SD-Card Mount Path"
+        android:defaultValue="/mnt/media_rw/extSdCard"
+        android:key="pref_es_sdmountpt"
+        android:enabled="false" />
+    <CheckBoxPreference
+        android:title="Automatically Save Data Log After Experiment Ends (Recommended: ON)"
+        android:key="pref_es_autoexport"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:title="Archive Existing Data Logs On Startup (Recommended: ON)"
+        android:key="pref_es_archivefiles"
+        android:defaultValue="true" />
+    <PreferenceCategory
+    android:title="E-mail Settings" />
+    <CheckBoxPreference
+    android:title="Zip Data Logs When Sending Single Files"
+    android:key="pref_email_zipfiles"
+    android:defaultValue="true" />
+    <EditTextPreference
+        android:title="Default E-mail Client"
+        android:key="pref_email_client"
+        android:enabled="false"
+        android:defaultValue="Gmail" />
+    <EditTextPreference
+        android:title="Default Recipient Address"
+        android:key="pref_email_recipient"
+        android:defaultValue="tactilegraphics@sussex.ac.uk" />
+<!--
+<PreferenceCategory
+android:title="Database Settings (unused)" />
+<EditTextPreference
+    android:title="Server Name or IP"
+    android:key="pref_db_server"/>
+<EditTextPreference
+    android:title="User Name"
+    android:key="pref_db_user"/>
+<EditTextPreference
+    android:title="User Password"
+    android:key="pref_db_password"/>
+    //-->
+</PreferenceScreen>

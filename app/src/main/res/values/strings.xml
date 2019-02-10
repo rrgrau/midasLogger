@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MIDAS-logger</string>
+    <string name="title">MIDAS-logger</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_multi_touch">MIDAS-logger</string>
+    <string name="buttonGatherRawDataCaption">Set up Experiment</string>
+    <string name="buttonShowDatafileCaption">Inspect Current Data Log</string>
+    <string name="buttonExportDatafileCaption">Save Current Data Log</string>
+    <string name="buttonEmailDatafileCaption">Send Current Data Log via E-mail</string>
+    <string name="buttonEmailAllDatafilesCaption">Send All Saved Data Logs via E-mail</string>
+    <string name="buttonArchivefilesCaption">Move All Saved Data Logs to Archive</string>
+    <string name="buttoncopytosdCaption">Copy Archived Logs to SD-Card</string>
+    <string name="buttonDeleteDatafileCaption">Clear Memory</string>
+    <string name="buttonQuitCaption">Close App</string>
+    <string name="settingsTitle">MIDAS-logger Settings</string>
+    <string name="buttonStartExperiment">Tap to start experiment (Prior calibration: NO)</string>
+    <string name="buttonStartCalibration">Tap to start experiment (Prior calibration: YES)</string>
+    <string name="aboutTitle">MIDAS-logger 1.2b</string>
+    <string name="aboutSubtitle">A touch data elicitation tool for tactile protocol analysis applications.</string>
+    <string name="aboutText">Developed within the Tactile Graphics Project at the University of Sussex \n\n<a href="mailto:tactilegraphics@sussex.ac.uk">tactilegraphics@sussex.ac.uk</a> \n\n2014-2018</string>
+</resources>
